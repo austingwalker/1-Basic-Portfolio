@@ -96,11 +96,29 @@ body {
     font-size: 36px;
 }
 
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
 #one {
     float: left;
     margin-right: 20px;
     margin-bottom: 10px;
 
+}
+
+#textOne {
+    position: absolute;
+    bottom: 70px;
+    left: 30px;
+    background: #128e97;
+    color: white;
+    width: 180px;
+    text-align: center;
+    padding: 10px;
 }
 
 #two {
@@ -110,11 +128,33 @@ body {
 
 }
 
+#textTwo {
+    position: absolute;
+    bottom: 70px;
+    left: 250px;
+    background: #128e97;
+    color: white;
+    width: 180px;
+    text-align: center;
+    padding: 10px;
+}
+
 #three {
     float: left;
     margin-right: 20px;
     margin-bottom: 10px;
 
+}
+
+#textThree {
+    position: absolute;
+    bottom: 70px;
+    left: 470px;
+    background: #128e97;
+    color: white;
+    width: 180px;
+    text-align: center;
+    padding: 10px;
 }
 
 #four {
@@ -123,6 +163,17 @@ body {
     margin-bottom: 10px;
 
 } 
+
+#textFour {
+    position: absolute;
+    bottom: 70px;
+    left: 690px;
+    background: #128e97;
+    color: white;
+    width: 180px;
+    text-align: center;
+    padding: 10px;
+}
 
 /* -------------------- Footer --------------------*/
 
@@ -144,3 +195,4 @@ body {
     color: white;
     font-size: 12px;
 }
+
